@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It picked up the differences between two files automatically, and show them in the way I can read easily.
+    So I quickly found the typo which wasn't in the old file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I had a bug or a problem in my program file, I could easily and quickly know when or at which version the problem is introduced.
+    And even I could know which part got wrong.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros: Versions can be separated by logical and functional change. So Programmer can know which work is done in which version.
+    cons: The timing to commit is absolutely depends on each programmer. There's a possibility that programmers fail to commit at a suitable timing.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because some files are strongly related to one another especially in programming, and it is reasonable that the record of changes of related files are kept as same version.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    When I see the history of changes:
+        git log [--stat]
+        * --stat option shows the details of each revision.
+
+    When I know the difference between two files:
+        git diff id1 id2
+        * id1 and id2 are ids of the versions I want to know the difference of.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to write a program and maintain its source file(s) with Git.
