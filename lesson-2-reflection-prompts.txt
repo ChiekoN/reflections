@@ -24,6 +24,8 @@ When I want to make a different version of apps, such as different language vers
 
 How do the diagrams help you visualize the branch structure?
 
+The diagrams help me understand which commit comes from which commit(parent), then I can grab whole tree structure of the repository.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
