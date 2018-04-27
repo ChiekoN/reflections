@@ -37,3 +37,6 @@ And also the history of changes of each branches are merged as one history.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging is easy and no-hassle, but sometimes conflicts happen.
+Manual marging needs your hands, but you can make sure it's what you meant to do.
