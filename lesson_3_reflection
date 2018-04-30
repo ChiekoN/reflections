@@ -17,3 +17,10 @@ Branch is a history of commit that separated from the main history chain.
 When I would like to try another features or versions of what I am making, I would make branches.
 When I want a copy of a repository from somewhere to my own environment, I would make clones.
 When I want a copy of a repository within GitHub and make some changes without affecting the original, I would make forks.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+I can make sure of the latest(up-to-date) version on GitHub, without updating my local files.
+I can compare my local changes and someone else's changes on GitHub by using git log and git diff.
+
