@@ -24,3 +24,8 @@ What is the benefit of having a copy of the last known state of the remote store
 I can make sure of the latest(up-to-date) version on GitHub, without updating my local files.
 I can compare my local changes and someone else's changes on GitHub by using git log and git diff.
 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If I didin't use Git or GitHub, I wouldn't have to remember how to use them.
+But if there weren't Git and GitHub, it would be more hassle to maintain the history of revision or to work on the project with other developers at the same time.
